@@ -1,3 +1,9 @@
+body {
+font-family: 'Inter', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+}
 header {
     margin-left: auto;
     margin-right: auto;
@@ -9,7 +15,7 @@ header {
 }
 
 .logo-text {
-    margin-left: 20px ;
+    margin-left: 45px ;
     margin-right: auto;
     font-size: 16px;
     font-weight: bold;
@@ -26,16 +32,136 @@ nav {
     margin-right: auto;
     width: 964px;
     height: 42px;
-    background-color: #535353;
-    align-items: center;
+    background-color: #1C1C1C;
     display: flex;
+    align-items: center;
+    justify-content: center;
     }
 ul{
    display: flex;
+   list-style-type: none;
+   padding: 0px;
+   color: white;
+   font-weight: 300;
+   background-color: #1C1C1C;
+}
+li{
+    display: flex;
+    align-items: center;
+    height: 42px;
+    padding-left: 43px;
+    padding-right: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.button:hover{
+    background-color: #6A6A6A;
 }
 main {
+    position: relative;
+    top: -15px;
     width: 964px;
     height: 1497px;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid;
+}
+.services{
+    color: #535353;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 155.2%;
+    margin-left: 10px;
+}
+
+button{
+border: 0px;
+}
+.button-text{
+    font-family: 'roboto' , sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: center;
+    
+    margin-bottom: 0px;
+    color: white;
+    position: absolute;
+    top: auto;
+    bottom: 7px;
+    left: 20px; right: 20px;
+}
+/*.button-text-broshur{
+    font-family: 'roboto' , sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 22px;
+    margin-top: 265px;
+    color: white;
+}*/
+.broshur{
+    width: 362px;
+    height: 289px;
+    background-image: url(image/broshur.jpg);
+    margin-right: 7px;
+    margin-bottom: 12px;
+    position: relative;
+    
+}
+.prushina{
+    
+    width: 289px;
+    height: 289px;
+    background-image: url(image/prushina.jpg) ;
+    margin-bottom: 12px;
+    position: relative;
+    
+}
+.vizitka{
+    
+    width: 289px;
+    height: 289px;
+    background-image: url(image/vizitka.png) ;
+    margin-left: 7px;
+    margin-bottom: 12px;
+    position: relative;
+}
+.nakleyki{
+    
+    width: 663px;
+    height: 289px;
+    background-image: url(image/nakleyki.jpg) ;
+    margin-bottom: 12px;
+    margin-right: 7px;
+    position: relative;
+}
+.laminaciya{
+    
+    width: 289px;
+    height: 289px;
+    background-image: url(image/laminaciya.jpg) ;
+    margin-bottom: 12px;
+    position: relative;
+}
+.white-black{
+    width: 362px;
+    height: 272px;
+    background-image: url(image/white-black.jpg) ;
+    margin-bottom: 12px;
+    position: relative;
+}
+.baner{
+    width: 590px;
+    height: 272px;
+    background-image: url(image/baner.jpg) ;
+    margin-bottom: 12px;
+    margin-left: 7px;
+    position: relative;
+}
+.flayer{
+    width: 638px;
+    height: 289px;
+    background-image: url(image/flayer.jpg) ;
+    margin-bottom: 12px;
+    position: relative;
 }
